@@ -1,3 +1,6 @@
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyled = createGlobalStyle`
 @import-normalize; /* bring in normalize.css styles */
 
 body {
@@ -20,3 +23,6 @@ ul {
   padding: 0px;
   list-style: none;
 }
+`
+
+export default GlobalStyled;
